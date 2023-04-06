@@ -1,0 +1,72 @@
+ScientificName	AphiaID	Match type	ScientificName	AphiaID_accepted	ScientificName_accepted
+Codium fragile	145086	exact	Codium fragile	145086	Codium fragile
+Filamentous Green	
+Blady Ulvoid	
+Tubular Ulvoid	
+"Chaetomorpha linum (filament., unbranched)"	145027	exact	Chaetomorpha linum	145027	Chaetomorpha linum
+Codium fragile	145086	exact	Codium fragile	145086	Codium fragile
+Ulva intestinalis	234471	exact	Ulva intestinalis	234471	Ulva intestinalis
+Ulva lactuca	145984	exact	Ulva lactuca	145984	Ulva lactuca
+Agarum clathratum	157207	exact	Agarum clathratum	157207	Agarum clathratum
+Agarum clathratum	157207	exact	Agarum clathratum	157207	Agarum clathratum
+Alaria esculenta	145716	exact	Alaria esculenta	145716	Alaria esculenta
+Alaria esculenta	145716	exact	Alaria esculenta	145716	Alaria esculenta
+Arthrocladia villosa	145306	exact	Arthrocladia villosa	145306	Arthrocladia villosa
+Ascophyllum nodosum	145541	exact	Ascophyllum nodosum	145541	Ascophyllum nodosum
+UNID Juv Laminariales	
+Chorda filum	145722	exact	Chorda filum	145722	Chorda filum
+Colpomenia peregrina	145856	exact	Colpomenia peregrina	145856	Colpomenia peregrina
+Leathesia marina	494940	exact	Leathesia marina	494940	Leathesia marina
+Desmarestia aculeata	145307	exact	Desmarestia aculeata	145307	Desmarestia aculeata
+Desmarestia viridis	145310	exact	Desmarestia viridis	145310	Desmarestia viridis
+Diatom Tube Mat	
+Halosiphon tomentosus	145723	exact	Halosiphon tomentosus	145723	Halosiphon tomentosus
+Laminaria digitata	145724	exact	Laminaria digitata	145724	Laminaria digitata
+Laminaria digitata	145724	exact	Laminaria digitata	145724	Laminaria digitata
+Saccorhiza dermatodea	145734	exact	Saccorhiza dermatodea	145734	Saccorhiza dermatodea
+Saccorhiza dermatodea	145734	exact	Saccorhiza dermatodea	145734	Saccorhiza dermatodea
+Saccharina latissima	234483	exact	Saccharina latissima	234483	Saccharina latissima
+Saccharina latissima	234483	exact	Saccharina latissima	234483	Saccharina latissima
+Fucus vesiculosus	145548	exact	Fucus vesiculosus	145548	Fucus vesiculosus
+Fucus spiralis	145547	exact	Fucus spiralis	145547	Fucus spiralis
+Fucus distichus	145544	exact	Fucus distichus	145544	Fucus distichus
+Fucus sp.	144129	exact	Fucus	144129	Fucus
+Ahnfeltia plicata	144422	exact	Ahnfeltia plicata	144422	Ahnfeltia plicata
+Bonnemaisonia hamifera	144442	exact	Bonnemaisonia hamifera	144442	Bonnemaisonia hamifera
+Chondrus crispus	145625	exact	Chondrus crispus	145625	Chondrus crispus
+Corallina officinalis	145108	exact	Corallina officinalis	145108	Corallina officinalis
+Coccotylus truncatus	145654	exact	Coccotylus truncatus	145654	Coccotylus truncatus
+Ceramium spp.	143834	exact	Ceramium	143834	Ceramium
+Cystoclonium purpureum	145615	exact	Cystoclonium purpureum	145615	Cystoclonium purpureum
+Dumontia contorta	145228	exact	Dumontia contorta	145228	Dumontia contorta
+Euthora cristata	373772	exact	Euthora cristata	373772	Euthora cristata
+Heterosiphonia japonica	232226	exact	Heterosiphonia japonica	836896	Dasysiphonia japonica
+Mastocarpus stellatus	145650	exact	Mastocarpus stellatus	145650	Mastocarpus stellatus
+Palmaria palmata	145771	exact	Palmaria palmata	145771	Palmaria palmata
+Phycodrys rubens	144773	exact	Phycodrys rubens	144773	Phycodrys rubens
+Polysiphonia sp.	143853	exact	Polysiphonia	143853	Polysiphonia
+Polyides rotunda	145668	exact	Polyides rotunda	145668	Polyides rotunda
+Porphyra spp.	143808	exact	Porphyra	143808	Porphyra
+Ptilota serrata	144687	exact	Ptilota serrata	144687	Ptilota serrata
+Porphyra spp.	143808	exact	Porphyra	143808	Porphyra
+Red Algal Turf	
+Spermothamnion repens	144702	exact	Spermothamnion repens	144702	Spermothamnion repens
+Unidentified Filamentous Red	
+Unidentified Red Blade	
+Ectocarpus sp.	144099	exact	Ectocarpus	144099	Ectocarpus
+Grinnellia americana	371057	exact	Grinnellia americana	371057	Grinnellia americana
+Champia parvula	145804	exact	Champia parvula	145804	Champia parvula
+Heterosiphonia japonica	232226	exact	Heterosiphonia japonica	836896	Dasysiphonia japonica
+Scytosiphon lomentaria	145869	exact	Scytosiphon lomentaria	145869	Scytosiphon lomentaria
+Gracilaria tikvahiae	157354	exact	Gracilaria tikvahiae	157354	Gracilaria tikvahiae
+Vertebrata lanosa	475211	exact	Vertebrata lanosa	475211	Vertebrata lanosa
+Hildenbrandia rubra	145712	exact	Hildenbrandia rubra	145712	Hildenbrandia rubra
+Clathromorphum circumscriptum	145104	exact	Clathromorphum circumscriptum	145104	Clathromorphum circumscriptum
+Unidentified Encrusting coralline	
+Lithophyllum sp.	144016	exact	Lithophyllum	144016	Lithophyllum
+Leptophytum spp.	144014	exact	Leptophytum	144022	Phymatolithon
+Lithothamnion spp.	144018	exact	Lithothamnion	144018	Lithothamnion
+Phymatolithon spp.	144022	exact	Phymatolithon	144022	Phymatolithon
+Titanoderma spp.	144027	exact	Titanoderma	144027	Titanoderma
+Unidentified Erect Coralline	
+Phymatolithon lenormandii	145202	exact	Phymatolithon lenormandii	145202	Phymatolithon lenormandii
