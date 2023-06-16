@@ -17,12 +17,12 @@ library(dplyr)
 library(readr)
 
 # load data
-protocol_info <- read_excel("Stone Livng Lab Intertidal Example/GOOS_EOV_Protocol_Desciptor_Form.xlsx")
-admin_info <- read_excel("Stone Livng Lab Intertidal Example/GOOS_EOV_Administrative_Info.xlsx")
-observer_info <- read_excel("Stone Livng Lab Intertidal Example/GOOS_EOV_Administrative_Info.xlsx",
+protocol_info <- read_excel("Stone Living Lab Intertidal Example/GOOS_EOV_Protocol_Desciptor_Form.xlsx")
+admin_info <- read_excel("Stone Living Lab Intertidal Example/GOOS_EOV_Administrative_Info.xlsx")
+observer_info <- read_excel("Stone Living Lab Intertidal Example/GOOS_EOV_Administrative_Info.xlsx",
                             sheet = 2)
-species_list <- read_excel("Stone Livng Lab Intertidal Example/GOOS_EOV_Species_List.xlsx")
-quad_data <- read_excel("Stone Livng Lab Intertidal Example/GOOS_Intertidal_Form_v1.xlsx")
+species_list <- read_excel("Stone Living Lab Intertidal Example/GOOS_EOV_Species_List.xlsx")
+quad_data <- read_excel("Stone Living Lab Intertidal Example/GOOS_Intertidal_Form_v1.xlsx")
 
 # compress quad data to 1 point per quadrat instead of squares
 quad_data_summed <- quad_data |>
