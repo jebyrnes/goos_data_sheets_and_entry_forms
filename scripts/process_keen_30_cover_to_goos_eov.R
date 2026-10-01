@@ -23,10 +23,14 @@ library(geosphere) #for calculating bearing
 
 
 # load data
+
 protocol_info <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Protocol_Desciptor_Form.xlsx")
-admin_info <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Administrative_Info.xlsx")
+dataset_info <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Administrative_Info.xlsx",
+                           sheet = "Dataset Info")
+admin_info <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Administrative_Info.xlsx",
+                         sheet = "Organization Info")
 observer_info <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Administrative_Info.xlsx",
-                            sheet = 2)
+                            sheet = "Observer Info")
 species_list <- read_excel("KEEN 30m Subtidal Example/GOOS_EOV_Species_List.xlsx")
 site_info <- read_excel("KEEN 30m Subtidal Example/GOOS_Subtidal_Site_Info_Template_v1.xlsx") |>
     select(Year, Month, Day, Site, Block, `Start Latitude`, `Start Longitude`,
@@ -46,7 +50,7 @@ point_count_with_species <- point_count_data |>
 
 
 point_count_data_summed <- point_count_with_species |>
-    group_by(`Collection Method`,
+    group_by(`Collection Method`,  `Dataset title`, 
              Year, Month, Day, Site, Block, 
              Quadrat,
              `Name`,
@@ -59,7 +63,8 @@ point_count_data_summed <- point_count_with_species |>
              Vocabulary, 
              `CATAMI Name`,
              `CATAMI Version`,
-             `CATAMI Unique Identifier`) |>
+             `CATAMI Unique Identifier`,
+             `Essential Ocean Variable`) |>
     summarize(Measurement = n()/60*100, #max of 100% out of 60 points
               .groups = "drop",
               Depth = mean(c(`Depth at 0m`, `Depth at 30m`))) |>
@@ -68,6 +73,7 @@ point_count_data_summed <- point_count_with_species |>
 
 # add site info and admin info
 point_count_with_info <- point_count_data_summed |>
+    left_join(dataset_info) |>
     left_join(site_info) |>
     left_join(observer_info) |>
     bind_cols(admin_info) |>
@@ -92,10 +98,11 @@ clean_data <- point_count_with_info |>
            Vocabulary,  Name,
            `CATAMI Unique Identifier`, `CATAMI Name`, `CATAMI Version`,
            `Measurement Unit`, Measurement, 
+           names(dataset_info),
            Observer, `Observer ID`, `Observer ID Type`,
            Organisation, `Organisation ID`, `Organisation ID Type`,
            Project, `Data Custodian`, `Data Contact email`, 
-           `Data Custodian ID`, `Data Custodian ID Type`
+           `Data Custodian ID`, `Data Custodian ID Type`, `Essential Ocean Variable`
     ) |>
     rename(`Transect ID` = Block,
            Latitude = `Start Latitude`,
